@@ -1,0 +1,85 @@
+<div class="home-left-ele prayerEle <%= prayerEle.prayer_type%>Ele">
+  <img alt="Prayer" src="">
+  <div class="inlineb" style="width: 540px; margin: 0px 2px 0px 10px;">
+    <div class="ele-content inlineb">
+      <%= prayerEle.name%> <br/>
+      <%= prayerEle.description%>
+    </div>
+    <div class="ele-author inlineb">
+      
+      <%if prayerEle.prayer_type == "Group"%>
+        by <%= prayerEle.group_poster.firstName%>
+        <br/>from <%= prayerEle.prayer.name%>
+      <% else %>
+        by <%= prayerEle.prayer.firstName%>
+      <%end%>
+    </div>
+    <div class="ele-actions inlineb">
+      <% mineC =prayerEle.userHasComment(current_user.id).length %>
+      <div class="ele-action modal-comment inlineb <%= 'mine' if mineC > 0 %>" title= "<%= 'You commented on this'  if mineC> 0%>" data-id="<%=prayerEle.id%>" data-type="prayer">
+        Comments
+        (<div class="ele-action-number inlineb">
+          <%= prayerEle.comments.count%>
+        </div>)
+        
+      </div>
+      <div class="modal fade" id="prayer-comments-modal-<%= prayerEle.id %>" tabindex="-1" role="dialog" >
+        <div class="modal-dialog" style="width: inherit;">
+          <div class="modal-content" style="width: inherit;">
+            <% prayerEle.comments.each do |comment|%>
+            <div>
+              <%=comment.text%>
+              <br/>
+              by <%=comment.user.firstName%>
+            </div>
+            <%end%>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+
+      <% mineL =prayerEle.userHasLike(current_user.id).length %>
+      <div class="ele-action inlineb modal-like <%= 'mine' if mineL > 0 %>" title= "<%= 'You liked this'  if mineL> 0%>" data-id="<%=prayerEle.id%>" data-type="prayer">
+        Likes
+        (<div class="ele-action-number inlineb">
+          <%= prayerEle.likes.count%>
+        </div>)
+      </div>
+      <div class="modal fade" id="prayer-likes-modal-<%= prayerEle.id %>" tabindex="-1" role="dialog" >
+        <div class="modal-dialog" style="width: inherit;">
+          <div class="modal-content" style="width: inherit;">
+          <% prayerEle.likes.each do |like|%>
+            <div>
+              by <%=like.user.firstName%>
+            </div>
+            <%end%>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+
+      <div>
+        <% newComment = prayerEle.comments.new%>
+        <%= form_for(newComment) do |f|%>
+          <%= f.hidden_field :owner_id, :value => current_user.id %>
+          <%= f.hidden_field :post_id, :value => newComment.post_id %>
+          <%= f.hidden_field :post_type, :value => newComment.post_type %>
+          <%= f.text_area :text%>
+          <%= f.submit "Comment"%>
+        <%end%>
+        <% newlike = prayerEle.likes.new%>
+        <%= form_for(newlike) do |f|%>
+          <%= f.hidden_field :owner_id, :value => current_user.id %>
+          <%= f.hidden_field :post_id, :value => newlike.post_id %>
+          <%= f.hidden_field :post_type, :value => newlike.post_type %>
+          <%= f.submit "Like"%>
+        <%end%>
+      </div>
+    </div>
+    
+  </div>          
+</div>

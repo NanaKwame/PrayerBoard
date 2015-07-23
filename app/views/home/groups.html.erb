@@ -1,0 +1,12 @@
+<%= render partial: "partials/menuHeader"%>
+
+<div class="home-main">
+	<div class="home-main-wrapper">
+		<div class="home-left inlineb">
+			<%= render partial: "partials/postsAndFilter", locals: {posts: @groupposts}%>
+		</div>
+		<div class="home-right inlineb">
+			<%= render partial: "partials/groupsView", locals: {groups: @mygroups}%>
+		</div>
+	</div>
+</div>

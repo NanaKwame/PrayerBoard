@@ -1,29 +1,114 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>PrayerBoard</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-<% if notice %>
-  <p class="alert alert-notice"><%= notice %></p>
-<% end %>
-<% if alert %>
-  <p class="alert alert-error"><%= alert %></p>
-<% end %>
-<%= yield %>
 
-<p class="navbar-text pull-right">
-<% if user_signed_in? %>
-  Logged in as <strong><%= current_user.email %></strong>.
-  <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
-  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
-<% else %>
-  <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
-  <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
-<% end %>
+<!DOCTYPE html>
+<html ng-app="PrayerBoard">
+<head>
+    <title>PrayerBoard</title>
+    <%= stylesheet_link_tag    "application", media: "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+</head>
+
+<body style = "font-family: GandhiSans;">
+  <% if current_user != nil%>
+  <div id = 'navContainer'>
+    <div id = 'navLeft'>
+      <div id='logo'>        
+        <h1 style = 'margin-top: 1px; padding: 5px; font-family: BebasNeueBold; background-color: white; border: 0; border-radius: 5px;'>
+        <%= link_to "PrayerBoard", root_path %>
+        </h1>
+      </div>
+    </div>
+
+    <div id = 'navRight'>
+      <div id='profPic' style = "width: 45px; height: 45px; display: inline-block">
+        <%= image_tag current_user.image? ? current_user.image.url(:thumb) : "profPic.png", { class: 'img-circle', style: 'position: absolute; height: inherit;'} %>
+      </div>
+      <h3 id = 'name' class="inlineb"> Hi <%= current_user.firstName %>!</h3>
+
+      <div class = "dropdown inlineb" style="display: inline-block;" id="gear" >
+          <span id = "logOut" class = "glyphicon glyphicon-log-out" data-toggle="dropdown"></span>
+          <ul class="dropdown-menu pull-right" role="menu" > 
+            <li id = "signOut" role="presentation">
+              <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+            </li>
+            <% friendships = Friendship.getRequests(current_user)%>
+            <% memberships = Membership.getRequests(current_user)%>
+            <li id = "requests" role="presentation">
+              <a>Requests (<%= friendships.length + memberships.length%>)</a>
+            </li>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="requests-modal" tabindex="-1" role="dialog" >
+    <div class="modal-dialog" style="width: inherit;">
+      <div class="modal-content" style="width: inherit;">
+      <h3>Friend Requests</h3>
+        <% friendships.each do |friendship|%>
+          <li>
+            <div id="accept-friend">
+              <%= friendship.user.firstName%>
+              <%= form_for(friendship) do |f| %>
+              <%= f.hidden_field :status, :value => "Confirmed" %>
+              <%= f.submit "Accept Friendship"%>
+              <%end%>
+            </div>
+          </li>
+        <%end%>
+      <h3>Group Requests</h3>
+        <% memberships.each do |membership|%>
+          <li>
+            <div id="accept-group-but">
+              <%= membership.user.firstName%>
+              <%= form_for(membership) do |f| %>
+              <%= f.hidden_field :status, :value => "Confirmed" %>
+              <%= f.submit "Join Group"%>
+              <%end%>
+            </div>
+          </li>
+        <%end%>
+      </div>
+      <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+  </div>
+  <%else%>
+
+  <div id="navbar" class="inlineb" style="height:65px; min-width:1000px; position: absolute">
+    <div id = 'logo'class="inlineb" ><h1 style = 'margin-top: 10px; margin-left: 10px; font-size: 45px; font-family: BebasNeueBold'>PrayerBoard</h1></div>
+    <%= form_for(resource, as: resource_name, url: session_path(resource_name), :html => {:class => "login-signin"}) do |f| %>
+
+    <div class="login-signin-email inlineb">
+      <%= f.email_field :email, autofocus: true, :placeholder => "Email", :tabindex => "1" %>
+      <%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
+      <div class ="login-signin-forgot inlineb white">
+        <%= link_to "Forgot your password?", new_password_path(resource_name), :tabindex => "3" %><br />
+      </div>
+      <% end -%>
+    </div>
+
+      <div class="login-signin-password inlineb">
+        <%= f.password_field :password, autocomplete: "off", :placeholder => "Password", :tabindex => "2" %>
+        <% if devise_mapping.rememberable? -%>
+        <div class="login-signin-remember  white">
+          <%= f.check_box :remember_me, :tabindex => "4" %>
+          <%= f.label :remember_me %>
+        </div>
+      <% end -%>
+      </div>
+      <div class="login-signin-submit inlineb">
+        <%= f.submit "Sign in" %>
+      </div>
+    <% end %>
+  </div>
+<%end%>
+
+
+
+
+
+
+<%= yield %>
 
 </body>
 </html>

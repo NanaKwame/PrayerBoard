@@ -1,0 +1,16 @@
+<h1> Friends </h1>
+<%= form_for(Friendship.new) do |f| %>
+    <%= f.hidden_field :from_id, :value => owner.id %>
+    <%= f.select :to_id, 
+      options_for_select(User.all.map {|u| 
+        [u.firstName, u.id]}), 
+      {:include_blank => false, :class => "friendship-select", :multiple => true } %>
+    <div class="actions">
+      <%= f.submit "Request Friendship"%>
+    </div>
+  <% end %>
+<ul>
+	<% owner.friendship.each do |friendship|%>
+	<li> <%= friendship.owner.firstName %> <%= friendship.owner.lastName %> </li>
+	<%end%>
+</ul>

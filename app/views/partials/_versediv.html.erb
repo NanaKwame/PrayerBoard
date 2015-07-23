@@ -1,0 +1,84 @@
+<div class="home-left-ele verseEle <%= verseEle.bible_verse_type%>Ele">
+  <img alt="Verse" src="">
+  <div class="inlineb" style="width: 540px; margin: 0px 2px 0px 10px;">
+    <div class="ele-content inlineb">
+      <%= verseEle.where%> <br/>
+      <%= verseEle.text%>
+    </div>
+    <div class="ele-author inlineb">
+       
+      <%if verseEle.bible_verse_type == "Group"%>
+        by <%= verseEle.group_poster.firstName%>
+        <br/>from <%= verseEle.bible_verse.name%>
+      <%else%>
+        by <%= verseEle.bible_verse.firstName%>
+      <%end%>
+    </div>
+    <div class="ele-actions inlineb">
+      <% mineC =verseEle.userHasComment(current_user.id).length %>
+      <div class="ele-action modal-comment inlineb <%= 'mine' if mineC > 0 %>" title= "<%= 'You commented on this'  if mineC> 0%>" data-id="<%=verseEle.id%>" data-type="verse">
+        Comments
+        (<div class="ele-action-number inlineb">
+          <%= verseEle.comments.count%>
+        </div>)
+      </div>
+      <div class="modal fade" id="verse-comments-modal-<%= verseEle.id %>" tabindex="-1" role="dialog" >
+        <div class="modal-dialog" style="width: inherit;">
+          <div class="modal-content" style="width: inherit;">
+            <% verseEle.comments.each do |comment|%>
+            <div>
+              <%=comment.text%>
+              <br/>
+              by <%=comment.user.firstName%>
+            </div>
+            <%end%>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+
+      <% mineL =verseEle.userHasLike(current_user.id).length %>
+      <div class="ele-action modal-like inlineb <%= 'mine' if mineL > 0 %>" title= "<%= 'You liked this'  if mineC> 0%>" data-id="<%=verseEle.id%>" data-type="verse">
+        Likes
+        (<div class="ele-action-number inlineb">
+          <%= verseEle.likes.count%>
+        </div>)
+      </div>
+      <div class="modal fade" id="verse-likes-modal-<%= verseEle.id %>" tabindex="-1" role="dialog" >
+        <div class="modal-dialog" style="width: inherit;">
+          <div class="modal-content" style="width: inherit;">
+          <% verseEle.likes.each do |like|%>
+            <div>
+              by <%=like.user.firstName%>
+            </div>
+            <%end%>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+
+      <div>
+        <% newComment = verseEle.comments.new%>
+        <%= form_for(newComment) do |f|%>
+          <%= f.hidden_field :owner_id, :value => current_user.id %>
+          <%= f.hidden_field :post_id, :value => newComment.post_id %>
+          <%= f.hidden_field :post_type, :value => newComment.post_type %>
+          <%= f.text_area :text%>
+          <%= f.submit "Comment"%>
+        <%end%>
+        <% newlike = verseEle.likes.new%>
+        <%= form_for(newlike) do |f|%>
+          <%= f.hidden_field :owner_id, :value => current_user.id %>
+          <%= f.hidden_field :post_id, :value => newlike.post_id %>
+          <%= f.hidden_field :post_type, :value => newlike.post_type %>
+          <%= f.submit "Like"%>
+        <%end%>
+      </div>
+    </div>
+    
+  </div>          
+</div>

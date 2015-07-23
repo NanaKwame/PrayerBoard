@@ -1,0 +1,272 @@
+# Logfile created on 2014-07-04 00:38:39 -0700 by logger.rb/44203
+I, [2014-07-04T00:38:39.894270 #3227]  INFO -- : 0:  rake (10.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-07-04T00:38:39.899446 #3227]  INFO -- : 0:  i18n (0.6.9) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-07-04T00:38:40.003189 #3227]  INFO -- : 0:  minitest (4.7.5) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/minitest-4.7.5.gemspec
+I, [2014-07-04T00:38:40.599688 #3227]  INFO -- : 0:  multi_json (1.8.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-07-04T00:38:40.601126 #3227]  INFO -- : 0:  atomic (1.1.14) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-07-04T00:38:40.602359 #3227]  INFO -- : 0:  thread_safe (0.1.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-07-04T00:38:40.603765 #3227]  INFO -- : 0:  tzinfo (0.3.38) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-07-04T00:38:40.604824 #3227]  INFO -- : 0:  activesupport (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.0.gemspec
+I, [2014-07-04T00:38:40.606158 #3227]  INFO -- : 0:  builder (3.1.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-07-04T00:38:40.607320 #3227]  INFO -- : 0:  erubis (2.7.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-07-04T00:38:40.608472 #3227]  INFO -- : 0:  rack (1.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-07-04T00:38:40.612651 #3227]  INFO -- : 0:  rack-test (0.6.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-07-04T00:38:40.614189 #3227]  INFO -- : 0:  actionpack (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.0.gemspec
+I, [2014-07-04T00:38:40.615535 #3227]  INFO -- : 0:  mime-types (1.25.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-07-04T00:38:40.616698 #3227]  INFO -- : 0:  polyglot (0.3.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-07-04T00:38:40.617946 #3227]  INFO -- : 0:  treetop (1.4.15) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-07-04T00:38:40.619227 #3227]  INFO -- : 0:  mail (2.5.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-07-04T00:38:40.620478 #3227]  INFO -- : 0:  actionmailer (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.0.gemspec
+I, [2014-07-04T00:38:40.621641 #3227]  INFO -- : 0:  activemodel (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.0.gemspec
+I, [2014-07-04T00:38:40.623054 #3227]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-07-04T00:38:40.624233 #3227]  INFO -- : 0:  arel (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-07-04T00:38:40.631238 #3227]  INFO -- : 0:  activerecord (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.0.gemspec
+I, [2014-07-04T00:38:41.230048 #3227]  INFO -- : 0:  rails-observers (0.1.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rails-observers-0.1.2.gemspec
+I, [2014-07-04T00:38:41.797801 #3227]  INFO -- : 0:  activeresource (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activeresource-4.0.0.gemspec
+I, [2014-07-04T00:38:42.342095 #3227]  INFO -- : 0:  asana (0.0.6) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/asana-0.0.6.gemspec
+I, [2014-07-04T00:38:45.480948 #3227]  INFO -- : 0:  json (1.8.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/json-1.8.1.gemspec
+I, [2014-07-04T00:38:45.481696 #3227]  INFO -- : 0:  mini_portile (0.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mini_portile-0.5.2.gemspec
+I, [2014-07-04T00:40:48.908258 #3227]  INFO -- : 0:  nokogiri (1.6.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/nokogiri-1.6.1.gemspec
+I, [2014-07-04T00:40:48.909094 #3227]  INFO -- : 0:  uuidtools (2.1.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-07-04T00:40:51.153855 #3227]  INFO -- : 0:  aws-sdk (1.32.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/aws-sdk-1.32.0.gemspec
+I, [2014-07-04T00:40:52.972877 #3227]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-07-04T00:40:52.975632 #3227]  INFO -- : 0:  climate_control (0.0.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/climate_control-0.0.3.gemspec
+I, [2014-07-04T00:40:52.976301 #3227]  INFO -- : 0:  cocaine (0.5.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/cocaine-0.5.3.gemspec
+I, [2014-07-04T00:40:52.976820 #3227]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-07-04T00:40:52.979762 #3227]  INFO -- : 0:  execjs (2.0.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-07-04T00:40:52.980450 #3227]  INFO -- : 0:  coffee-script (2.2.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-07-04T00:40:52.980984 #3227]  INFO -- : 0:  thor (0.18.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-07-04T00:40:52.981459 #3227]  INFO -- : 0:  railties (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/railties-4.0.0.gemspec
+I, [2014-07-04T00:40:52.981909 #3227]  INFO -- : 0:  coffee-rails (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-07-04T00:40:54.316400 #3227]  INFO -- : 0:  orm_adapter (0.5.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-07-04T00:40:54.317354 #3227]  INFO -- : 0:  warden (1.2.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/warden-1.2.3.gemspec
+I, [2014-07-04T00:40:55.194393 #3227]  INFO -- : 0:  devise (3.2.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/devise-3.2.2.gemspec
+I, [2014-07-04T00:40:55.195358 #3227]  INFO -- : 0:  hike (1.2.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/hike-1.2.3.gemspec
+I, [2014-07-04T00:40:55.682199 #3227]  INFO -- : 0:  jbuilder (1.5.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jbuilder-1.5.3.gemspec
+I, [2014-07-04T00:40:55.683242 #3227]  INFO -- : 0:  jquery-rails (3.0.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-07-04T00:40:56.503626 #3227]  INFO -- : 0:  jquery-ui-rails (4.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jquery-ui-rails-4.1.1.gemspec
+I, [2014-07-04T00:40:56.697909 #3227]  INFO -- : 0:  paperclip (3.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/bundler/gems/paperclip-f6f5ea1bd0b4/paperclip.gemspec
+I, [2014-07-04T00:41:05.590028 #3227]  INFO -- : 0:  pg (0.17.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/pg-0.17.1.gemspec
+I, [2014-07-04T00:41:05.590604 #3227]  INFO -- : 0:  bundler (1.5.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.0.gemspec
+I, [2014-07-04T00:41:05.591027 #3227]  INFO -- : 0:  tilt (1.4.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-07-04T00:41:06.140047 #3227]  INFO -- : 0:  sprockets (2.10.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sprockets-2.10.1.gemspec
+I, [2014-07-04T00:41:06.140645 #3227]  INFO -- : 0:  sprockets-rails (2.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-07-04T00:41:06.141109 #3227]  INFO -- : 0:  rails (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rails-4.0.0.gemspec
+I, [2014-07-04T00:41:07.813492 #3227]  INFO -- : 0:  rdoc (4.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rdoc-4.1.1.gemspec
+E, [2014-07-04T00:41:09.949683 #3227] ERROR -- : Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+
+    /home/ebenezer/.rvm/rubies/ruby-2.1.0/bin/ruby extconf.rb 
+checking for Ruby version >= 1.8.5... yes
+checking for gcc... yes
+checking for Magick-config... no
+Can't install RMagick 2.13.2. Can't find Magick-config in /home/ebenezer/.rvm/gems/ruby-2.1.0/bin:/home/ebenezer/.rvm/gems/ruby-2.1.0@global/bin:/home/ebenezer/.rvm/rubies/ruby-2.1.0/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/ebenezer/.rvm/bin
+
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of necessary
+libraries and/or headers.  Check the mkmf.log file for more details.  You may
+need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/home/ebenezer/.rvm/rubies/ruby-2.1.0/bin/ruby
+
+extconf failed, exit code 1
+
+Gem files will remain installed in /home/ebenezer/.rvm/gems/ruby-2.1.0/gems/rmagick-2.13.2 for inspection.
+Results logged to /home/ebenezer/.rvm/gems/ruby-2.1.0/extensions/x86-linux/2.1.0/rmagick-2.13.2/gem_make.out
+
+/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:89:in `run'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:38:in `block in build'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/tempfile.rb:324:in `open'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/ext_conf_builder.rb:17:in `build'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:161:in `block (2 levels) in build_extension'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `chdir'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:160:in `block in build_extension'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `synchronize'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:159:in `build_extension'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:198:in `block in build_extensions'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `each'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/ext/builder.rb:195:in `build_extensions'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:677:in `build_extensions'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/site_ruby/2.1.0/rubygems/installer.rb:232:in `install'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:101:in `block in install'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:118:in `preserve_paths'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/source/rubygems.rb:94:in `install'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:111:in `block in install_gem_from_spec'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/rubygems_integration.rb:150:in `with_build_args'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:110:in `install_gem_from_spec'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:295:in `block in install_sequentially'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ebenezer/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/forwardable.rb:183:in `each'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:294:in `install_sequentially'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:97:in `run'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/installer.rb:15:in `install'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:257:in `install'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/command.rb:27:in `run'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/invocation.rb:120:in `invoke_command'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor.rb:363:in `dispatch'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/vendor/thor/base.rb:438:in `start'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/cli.rb:10:in `start'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `block in <top (required)>'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/lib/bundler/friendly_errors.rb:5:in `with_friendly_errors'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/gems/bundler-1.5.0/bin/bundle:22:in `<top (required)>'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `load'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0@global/bin/bundle:23:in `<main>'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `eval'  \n/home/ebenezer/.rvm/gems/ruby-2.1.0/bin/ruby_executable_hooks:15:in `<main>'
+I, [2014-07-04T00:53:26.452635 #24782]  INFO -- : 0:  rake (10.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-07-04T00:53:26.481373 #24782]  INFO -- : 0:  i18n (0.6.9) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-07-04T00:53:26.715690 #24782]  INFO -- : 0:  minitest (4.7.5) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/minitest-4.7.5.gemspec
+I, [2014-07-04T00:53:26.716823 #24782]  INFO -- : 0:  multi_json (1.8.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-07-04T00:53:26.717612 #24782]  INFO -- : 0:  atomic (1.1.14) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-07-04T00:53:26.718353 #24782]  INFO -- : 0:  thread_safe (0.1.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-07-04T00:53:26.719187 #24782]  INFO -- : 0:  tzinfo (0.3.38) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-07-04T00:53:26.720015 #24782]  INFO -- : 0:  activesupport (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.0.gemspec
+I, [2014-07-04T00:53:26.720821 #24782]  INFO -- : 0:  builder (3.1.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-07-04T00:53:26.721636 #24782]  INFO -- : 0:  erubis (2.7.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-07-04T00:53:26.724498 #24782]  INFO -- : 0:  rack (1.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-07-04T00:53:26.728362 #24782]  INFO -- : 0:  rack-test (0.6.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-07-04T00:53:26.729692 #24782]  INFO -- : 0:  actionpack (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.0.gemspec
+I, [2014-07-04T00:53:26.731007 #24782]  INFO -- : 0:  mime-types (1.25.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-07-04T00:53:26.732064 #24782]  INFO -- : 0:  polyglot (0.3.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-07-04T00:53:26.733613 #24782]  INFO -- : 0:  treetop (1.4.15) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-07-04T00:53:26.734424 #24782]  INFO -- : 0:  mail (2.5.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-07-04T00:53:26.735325 #24782]  INFO -- : 0:  actionmailer (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.0.gemspec
+I, [2014-07-04T00:53:26.736180 #24782]  INFO -- : 0:  activemodel (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.0.gemspec
+I, [2014-07-04T00:53:26.737032 #24782]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-07-04T00:53:26.737861 #24782]  INFO -- : 0:  arel (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-07-04T00:53:26.738633 #24782]  INFO -- : 0:  activerecord (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.0.gemspec
+I, [2014-07-04T00:53:26.739387 #24782]  INFO -- : 0:  rails-observers (0.1.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rails-observers-0.1.2.gemspec
+I, [2014-07-04T00:53:26.740161 #24782]  INFO -- : 0:  activeresource (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activeresource-4.0.0.gemspec
+I, [2014-07-04T00:53:26.750915 #24782]  INFO -- : 0:  asana (0.0.6) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/asana-0.0.6.gemspec
+I, [2014-07-04T00:53:28.490101 #24782]  INFO -- : 0:  json (1.8.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/json-1.8.1.gemspec
+I, [2014-07-04T00:53:28.491060 #24782]  INFO -- : 0:  mini_portile (0.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mini_portile-0.5.2.gemspec
+I, [2014-07-04T00:53:28.491530 #24782]  INFO -- : 0:  nokogiri (1.6.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/nokogiri-1.6.1.gemspec
+I, [2014-07-04T00:53:28.492119 #24782]  INFO -- : 0:  uuidtools (2.1.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-07-04T00:53:28.492580 #24782]  INFO -- : 0:  aws-sdk (1.32.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/aws-sdk-1.32.0.gemspec
+I, [2014-07-04T00:53:28.493110 #24782]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-07-04T00:53:28.493554 #24782]  INFO -- : 0:  climate_control (0.0.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/climate_control-0.0.3.gemspec
+I, [2014-07-04T00:53:28.494059 #24782]  INFO -- : 0:  cocaine (0.5.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/cocaine-0.5.3.gemspec
+I, [2014-07-04T00:53:28.494498 #24782]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-07-04T00:53:28.494960 #24782]  INFO -- : 0:  execjs (2.0.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-07-04T00:53:28.495435 #24782]  INFO -- : 0:  coffee-script (2.2.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-07-04T00:53:28.495933 #24782]  INFO -- : 0:  thor (0.18.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-07-04T00:53:28.496414 #24782]  INFO -- : 0:  railties (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/railties-4.0.0.gemspec
+I, [2014-07-04T00:53:28.496874 #24782]  INFO -- : 0:  coffee-rails (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-07-04T00:53:28.497356 #24782]  INFO -- : 0:  orm_adapter (0.5.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-07-04T00:53:28.497793 #24782]  INFO -- : 0:  warden (1.2.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/warden-1.2.3.gemspec
+I, [2014-07-04T00:53:28.498265 #24782]  INFO -- : 0:  devise (3.2.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/devise-3.2.2.gemspec
+I, [2014-07-04T00:53:28.498728 #24782]  INFO -- : 0:  hike (1.2.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/hike-1.2.3.gemspec
+I, [2014-07-04T00:53:28.501609 #24782]  INFO -- : 0:  jbuilder (1.5.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jbuilder-1.5.3.gemspec
+I, [2014-07-04T00:53:28.502236 #24782]  INFO -- : 0:  jquery-rails (3.0.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-07-04T00:53:28.502693 #24782]  INFO -- : 0:  jquery-ui-rails (4.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jquery-ui-rails-4.1.1.gemspec
+I, [2014-07-04T00:53:28.875611 #24782]  INFO -- : 0:  paperclip (3.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/bundler/gems/paperclip-f6f5ea1bd0b4/paperclip.gemspec
+I, [2014-07-04T00:53:28.879701 #24782]  INFO -- : 0:  pg (0.17.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/pg-0.17.1.gemspec
+I, [2014-07-04T00:53:28.887364 #24782]  INFO -- : 0:  bundler (1.5.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.0.gemspec
+I, [2014-07-04T00:53:28.892268 #24782]  INFO -- : 0:  tilt (1.4.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-07-04T00:53:28.895489 #24782]  INFO -- : 0:  sprockets (2.10.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sprockets-2.10.1.gemspec
+I, [2014-07-04T00:53:28.897374 #24782]  INFO -- : 0:  sprockets-rails (2.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-07-04T00:53:28.898764 #24782]  INFO -- : 0:  rails (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rails-4.0.0.gemspec
+I, [2014-07-04T00:53:28.902629 #24782]  INFO -- : 0:  rdoc (4.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rdoc-4.1.1.gemspec
+I, [2014-07-04T00:53:28.907190 #24782]  INFO -- : 0:  rmagick (2.13.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rmagick-2.13.2.gemspec
+I, [2014-07-04T00:53:29.958964 #24782]  INFO -- : 0:  sass (3.2.13) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sass-3.2.13.gemspec
+I, [2014-07-04T00:53:29.959614 #24782]  INFO -- : 0:  sass-rails (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sass-rails-4.0.1.gemspec
+I, [2014-07-04T00:53:30.902563 #24782]  INFO -- : 0:  sdoc (0.4.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sdoc-0.4.0.gemspec
+I, [2014-07-04T00:53:32.114834 #24782]  INFO -- : 0:  select2-rails (3.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/select2-rails-3.5.2.gemspec
+I, [2014-07-04T00:53:32.626197 #24782]  INFO -- : 0:  turbolinks (2.2.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/turbolinks-2.2.0.gemspec
+I, [2014-07-04T00:53:33.195432 #24782]  INFO -- : 0:  uglifier (2.4.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/uglifier-2.4.0.gemspec
+I, [2014-07-04T06:53:49.963928 #5366]  INFO -- : 0:  rake (10.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-07-04T06:53:49.983857 #5366]  INFO -- : 0:  i18n (0.6.9) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-07-04T06:53:50.180575 #5366]  INFO -- : 0:  minitest (4.7.5) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/minitest-4.7.5.gemspec
+I, [2014-07-04T06:53:50.182458 #5366]  INFO -- : 0:  multi_json (1.8.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-07-04T06:53:50.183793 #5366]  INFO -- : 0:  atomic (1.1.14) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-07-04T06:53:50.185213 #5366]  INFO -- : 0:  thread_safe (0.1.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-07-04T06:53:50.186517 #5366]  INFO -- : 0:  tzinfo (0.3.38) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-07-04T06:53:50.187795 #5366]  INFO -- : 0:  activesupport (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.0.gemspec
+I, [2014-07-04T06:53:50.189162 #5366]  INFO -- : 0:  builder (3.1.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-07-04T06:53:50.193404 #5366]  INFO -- : 0:  erubis (2.7.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-07-04T06:53:50.194891 #5366]  INFO -- : 0:  rack (1.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-07-04T06:53:50.196265 #5366]  INFO -- : 0:  rack-test (0.6.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-07-04T06:53:50.197592 #5366]  INFO -- : 0:  actionpack (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.0.gemspec
+I, [2014-07-04T06:53:50.198857 #5366]  INFO -- : 0:  mime-types (1.25.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-07-04T06:53:50.200189 #5366]  INFO -- : 0:  polyglot (0.3.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-07-04T06:53:50.201575 #5366]  INFO -- : 0:  treetop (1.4.15) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-07-04T06:53:50.202851 #5366]  INFO -- : 0:  mail (2.5.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-07-04T06:53:50.204279 #5366]  INFO -- : 0:  actionmailer (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.0.gemspec
+I, [2014-07-04T06:53:50.204996 #5366]  INFO -- : 0:  activemodel (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.0.gemspec
+I, [2014-07-04T06:53:50.211165 #5366]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-07-04T06:53:50.212147 #5366]  INFO -- : 0:  arel (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-07-04T06:53:50.215356 #5366]  INFO -- : 0:  activerecord (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.0.gemspec
+I, [2014-07-04T06:53:50.216292 #5366]  INFO -- : 0:  rails-observers (0.1.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rails-observers-0.1.2.gemspec
+I, [2014-07-04T06:53:50.217007 #5366]  INFO -- : 0:  activeresource (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activeresource-4.0.0.gemspec
+I, [2014-07-04T06:53:50.217974 #5366]  INFO -- : 0:  asana (0.0.6) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/asana-0.0.6.gemspec
+I, [2014-07-04T06:53:53.763931 #5366]  INFO -- : 0:  json (1.8.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/json-1.8.1.gemspec
+I, [2014-07-04T06:53:53.764933 #5366]  INFO -- : 0:  mini_portile (0.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mini_portile-0.5.2.gemspec
+I, [2014-07-04T06:53:53.765471 #5366]  INFO -- : 0:  nokogiri (1.6.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/nokogiri-1.6.1.gemspec
+I, [2014-07-04T06:53:53.766091 #5366]  INFO -- : 0:  uuidtools (2.1.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-07-04T06:53:53.766581 #5366]  INFO -- : 0:  aws-sdk (1.32.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/aws-sdk-1.32.0.gemspec
+I, [2014-07-04T06:53:53.767080 #5366]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-07-04T06:53:53.767543 #5366]  INFO -- : 0:  sass (3.2.13) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sass-3.2.13.gemspec
+I, [2014-07-04T06:53:55.183924 #5366]  INFO -- : 0:  bootstrap-sass (3.2.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/bootstrap-sass-3.2.0.0.gemspec
+I, [2014-07-04T06:53:55.185674 #5366]  INFO -- : 0:  bundler (1.5.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.0.gemspec
+I, [2014-07-04T06:53:55.187430 #5366]  INFO -- : 0:  climate_control (0.0.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/climate_control-0.0.3.gemspec
+I, [2014-07-04T06:53:55.188737 #5366]  INFO -- : 0:  cocaine (0.5.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/cocaine-0.5.3.gemspec
+I, [2014-07-04T06:53:55.190253 #5366]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-07-04T06:53:55.191507 #5366]  INFO -- : 0:  execjs (2.0.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-07-04T06:53:55.193140 #5366]  INFO -- : 0:  coffee-script (2.2.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-07-04T06:53:55.197081 #5366]  INFO -- : 0:  thor (0.18.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-07-04T06:53:55.199115 #5366]  INFO -- : 0:  railties (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/railties-4.0.0.gemspec
+I, [2014-07-04T06:53:55.200402 #5366]  INFO -- : 0:  coffee-rails (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-07-04T06:53:55.202012 #5366]  INFO -- : 0:  orm_adapter (0.5.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-07-04T06:53:55.203248 #5366]  INFO -- : 0:  warden (1.2.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/warden-1.2.3.gemspec
+I, [2014-07-04T06:53:55.204829 #5366]  INFO -- : 0:  devise (3.2.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/devise-3.2.2.gemspec
+I, [2014-07-04T06:53:55.206066 #5366]  INFO -- : 0:  hike (1.2.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/hike-1.2.3.gemspec
+I, [2014-07-04T06:53:55.207566 #5366]  INFO -- : 0:  jbuilder (1.5.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jbuilder-1.5.3.gemspec
+I, [2014-07-04T06:53:55.208823 #5366]  INFO -- : 0:  jquery-rails (3.0.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-07-04T06:53:55.216502 #5366]  INFO -- : 0:  jquery-ui-rails (4.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jquery-ui-rails-4.1.1.gemspec
+I, [2014-07-04T06:53:55.671806 #5366]  INFO -- : 0:  paperclip (3.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/bundler/gems/paperclip-f6f5ea1bd0b4/paperclip.gemspec
+I, [2014-07-04T06:53:55.672381 #5366]  INFO -- : 0:  pg (0.17.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/pg-0.17.1.gemspec
+I, [2014-07-04T06:53:55.672819 #5366]  INFO -- : 0:  tilt (1.4.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-07-04T06:53:55.673221 #5366]  INFO -- : 0:  sprockets (2.10.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sprockets-2.10.1.gemspec
+I, [2014-07-04T06:53:55.673622 #5366]  INFO -- : 0:  sprockets-rails (2.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-07-04T06:53:55.674017 #5366]  INFO -- : 0:  rails (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rails-4.0.0.gemspec
+I, [2014-07-04T06:53:55.674395 #5366]  INFO -- : 0:  rdoc (4.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rdoc-4.1.1.gemspec
+I, [2014-07-04T06:53:55.674818 #5366]  INFO -- : 0:  rmagick (2.13.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rmagick-2.13.2.gemspec
+I, [2014-07-04T06:53:55.675172 #5366]  INFO -- : 0:  sass-rails (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sass-rails-4.0.1.gemspec
+I, [2014-07-04T06:53:55.675553 #5366]  INFO -- : 0:  sdoc (0.4.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sdoc-0.4.0.gemspec
+I, [2014-07-04T06:53:55.675975 #5366]  INFO -- : 0:  select2-rails (3.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/select2-rails-3.5.2.gemspec
+I, [2014-07-04T06:53:55.676359 #5366]  INFO -- : 0:  turbolinks (2.2.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/turbolinks-2.2.0.gemspec
+I, [2014-07-04T06:53:55.676787 #5366]  INFO -- : 0:  uglifier (2.4.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/uglifier-2.4.0.gemspec
+I, [2014-07-05T17:50:42.858641 #14966]  INFO -- : 0:  rake (10.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rake-10.1.1.gemspec
+I, [2014-07-05T17:50:42.869774 #14966]  INFO -- : 0:  i18n (0.6.9) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/i18n-0.6.9.gemspec
+I, [2014-07-05T17:50:43.223394 #14966]  INFO -- : 0:  minitest (4.7.5) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/minitest-4.7.5.gemspec
+I, [2014-07-05T17:50:43.225411 #14966]  INFO -- : 0:  multi_json (1.8.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-07-05T17:50:43.226666 #14966]  INFO -- : 0:  atomic (1.1.14) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/atomic-1.1.14.gemspec
+I, [2014-07-05T17:50:43.228008 #14966]  INFO -- : 0:  thread_safe (0.1.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/thread_safe-0.1.3.gemspec
+I, [2014-07-05T17:50:43.229235 #14966]  INFO -- : 0:  tzinfo (0.3.38) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/tzinfo-0.3.38.gemspec
+I, [2014-07-05T17:50:43.230610 #14966]  INFO -- : 0:  activesupport (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activesupport-4.0.0.gemspec
+I, [2014-07-05T17:50:43.231979 #14966]  INFO -- : 0:  builder (3.1.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/builder-3.1.4.gemspec
+I, [2014-07-05T17:50:43.236640 #14966]  INFO -- : 0:  erubis (2.7.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/erubis-2.7.0.gemspec
+I, [2014-07-05T17:50:43.238358 #14966]  INFO -- : 0:  rack (1.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-07-05T17:50:43.239682 #14966]  INFO -- : 0:  rack-test (0.6.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-07-05T17:50:43.241156 #14966]  INFO -- : 0:  actionpack (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/actionpack-4.0.0.gemspec
+I, [2014-07-05T17:50:43.242895 #14966]  INFO -- : 0:  mime-types (1.25.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mime-types-1.25.1.gemspec
+I, [2014-07-05T17:50:43.243791 #14966]  INFO -- : 0:  polyglot (0.3.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/polyglot-0.3.3.gemspec
+I, [2014-07-05T17:50:43.244425 #14966]  INFO -- : 0:  treetop (1.4.15) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/treetop-1.4.15.gemspec
+I, [2014-07-05T17:50:43.245069 #14966]  INFO -- : 0:  mail (2.5.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mail-2.5.4.gemspec
+I, [2014-07-05T17:50:43.245818 #14966]  INFO -- : 0:  actionmailer (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/actionmailer-4.0.0.gemspec
+I, [2014-07-05T17:50:43.246560 #14966]  INFO -- : 0:  activemodel (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activemodel-4.0.0.gemspec
+I, [2014-07-05T17:50:43.247162 #14966]  INFO -- : 0:  activerecord-deprecated_finders (1.0.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activerecord-deprecated_finders-1.0.3.gemspec
+I, [2014-07-05T17:50:43.247873 #14966]  INFO -- : 0:  arel (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/arel-4.0.1.gemspec
+I, [2014-07-05T17:50:43.253217 #14966]  INFO -- : 0:  activerecord (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activerecord-4.0.0.gemspec
+I, [2014-07-05T17:50:43.256654 #14966]  INFO -- : 0:  rails-observers (0.1.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rails-observers-0.1.2.gemspec
+I, [2014-07-05T17:50:43.257577 #14966]  INFO -- : 0:  activeresource (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/activeresource-4.0.0.gemspec
+I, [2014-07-05T17:50:43.258299 #14966]  INFO -- : 0:  asana (0.0.6) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/asana-0.0.6.gemspec
+I, [2014-07-05T17:50:46.695084 #14966]  INFO -- : 0:  json (1.8.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/json-1.8.1.gemspec
+I, [2014-07-05T17:50:46.697836 #14966]  INFO -- : 0:  mini_portile (0.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/mini_portile-0.5.2.gemspec
+I, [2014-07-05T17:50:46.699386 #14966]  INFO -- : 0:  nokogiri (1.6.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/nokogiri-1.6.1.gemspec
+I, [2014-07-05T17:50:46.701308 #14966]  INFO -- : 0:  uuidtools (2.1.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/uuidtools-2.1.4.gemspec
+I, [2014-07-05T17:50:46.703285 #14966]  INFO -- : 0:  aws-sdk (1.32.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/aws-sdk-1.32.0.gemspec
+I, [2014-07-05T17:50:46.704760 #14966]  INFO -- : 0:  bcrypt-ruby (3.1.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/bcrypt-ruby-3.1.2.gemspec
+I, [2014-07-05T17:50:46.708975 #14966]  INFO -- : 0:  sass (3.2.13) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sass-3.2.13.gemspec
+I, [2014-07-05T17:50:46.710801 #14966]  INFO -- : 0:  bootstrap-sass (3.2.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/bootstrap-sass-3.2.0.0.gemspec
+I, [2014-07-05T17:50:46.713070 #14966]  INFO -- : 0:  climate_control (0.0.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/climate_control-0.0.3.gemspec
+I, [2014-07-05T17:50:46.715237 #14966]  INFO -- : 0:  cocaine (0.5.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/cocaine-0.5.3.gemspec
+I, [2014-07-05T17:50:46.716534 #14966]  INFO -- : 0:  coffee-script-source (1.6.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-script-source-1.6.3.gemspec
+I, [2014-07-05T17:50:46.718060 #14966]  INFO -- : 0:  execjs (2.0.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/execjs-2.0.2.gemspec
+I, [2014-07-05T17:50:46.720100 #14966]  INFO -- : 0:  coffee-script (2.2.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-script-2.2.0.gemspec
+I, [2014-07-05T17:50:46.726117 #14966]  INFO -- : 0:  thor (0.18.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/thor-0.18.1.gemspec
+I, [2014-07-05T17:50:46.726941 #14966]  INFO -- : 0:  railties (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/railties-4.0.0.gemspec
+I, [2014-07-05T17:50:46.727848 #14966]  INFO -- : 0:  coffee-rails (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/coffee-rails-4.0.1.gemspec
+I, [2014-07-05T17:50:46.728484 #14966]  INFO -- : 0:  orm_adapter (0.5.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/orm_adapter-0.5.0.gemspec
+I, [2014-07-05T17:50:46.728874 #14966]  INFO -- : 0:  warden (1.2.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/warden-1.2.3.gemspec
+I, [2014-07-05T17:50:46.729460 #14966]  INFO -- : 0:  devise (3.2.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/devise-3.2.2.gemspec
+I, [2014-07-05T17:50:46.729828 #14966]  INFO -- : 0:  hike (1.2.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/hike-1.2.3.gemspec
+I, [2014-07-05T17:50:46.730452 #14966]  INFO -- : 0:  jbuilder (1.5.3) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jbuilder-1.5.3.gemspec
+I, [2014-07-05T17:50:46.730864 #14966]  INFO -- : 0:  jquery-rails (3.0.4) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jquery-rails-3.0.4.gemspec
+I, [2014-07-05T17:50:46.731307 #14966]  INFO -- : 0:  jquery-ui-rails (4.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/jquery-ui-rails-4.1.1.gemspec
+I, [2014-07-05T17:50:47.216100 #14966]  INFO -- : 0:  paperclip (3.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/bundler/gems/paperclip-f6f5ea1bd0b4/paperclip.gemspec
+I, [2014-07-05T17:50:47.216714 #14966]  INFO -- : 0:  pg (0.17.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/pg-0.17.1.gemspec
+I, [2014-07-05T17:50:47.217131 #14966]  INFO -- : 0:  bundler (1.5.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.0.gemspec
+I, [2014-07-05T17:50:47.217513 #14966]  INFO -- : 0:  tilt (1.4.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-07-05T17:50:47.217972 #14966]  INFO -- : 0:  sprockets (2.10.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sprockets-2.10.1.gemspec
+I, [2014-07-05T17:50:47.218327 #14966]  INFO -- : 0:  sprockets-rails (2.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sprockets-rails-2.0.1.gemspec
+I, [2014-07-05T17:50:47.218725 #14966]  INFO -- : 0:  rails (4.0.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rails-4.0.0.gemspec
+I, [2014-07-05T17:50:47.219162 #14966]  INFO -- : 0:  rdoc (4.1.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rdoc-4.1.1.gemspec
+I, [2014-07-05T17:50:47.219548 #14966]  INFO -- : 0:  rmagick (2.13.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/rmagick-2.13.2.gemspec
+I, [2014-07-05T17:50:47.219953 #14966]  INFO -- : 0:  sass-rails (4.0.1) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sass-rails-4.0.1.gemspec
+I, [2014-07-05T17:50:47.220333 #14966]  INFO -- : 0:  sdoc (0.4.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/sdoc-0.4.0.gemspec
+I, [2014-07-05T17:50:47.220725 #14966]  INFO -- : 0:  select2-rails (3.5.2) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/select2-rails-3.5.2.gemspec
+I, [2014-07-05T17:50:47.221172 #14966]  INFO -- : 0:  turbolinks (2.2.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/turbolinks-2.2.0.gemspec
+I, [2014-07-05T17:50:47.221524 #14966]  INFO -- : 0:  uglifier (2.4.0) from /home/ebenezer/.rvm/gems/ruby-2.1.0/specifications/uglifier-2.4.0.gemspec

@@ -1,0 +1,43 @@
+<div class="post-section">
+	<h2>Post</h2>
+	<div class="post-types inlineb">
+		<div id="verse-form-sel" class="post-type inlineb">Verse</div>
+		<div id="preq-form-sel" class="post-type inlineb">Prayer Request</div>
+		<div id="prep-form-sel" class="post-type inlineb">Praise Report</div>
+	</div>
+	<div class="verse-form  post-form">
+		<% verse = owner.verses.new%>
+		<%= form_for(verse) do |f| %>
+			<%= f.hidden_field :user_id, :value => current_user.id %>
+			<%= f.hidden_field :bible_verse_id, :value => verse.bible_verse_id %>
+			<%= f.hidden_field :bible_verse_type, :value => verse.bible_verse_type %>
+			<%= f.text_field :where%>
+			<%= f.text_area :text%>
+			<%= f.submit "Post"%>
+		<%end%>
+	</div>
+	<div class="preq-form  post-form">
+		<%preq = owner.prayer_requests.new%>
+		<%= form_for(preq) do |f| %>
+			<%= f.hidden_field :user_id, :value => current_user.id %>
+			<%= f.hidden_field :prayer_id, :value => preq.prayer_id %>
+			<%= f.hidden_field :prayer_type, :value => preq.prayer_type %>
+			<%= f.text_field :name%>
+			<%= f.text_area :description%>
+			<%= f.submit "Post"%>
+		<%end%>
+	</div>
+	<div class="prep-form  post-form">
+		<% praise = owner.praises.new%>
+		<%= form_for(praise) do |f| %>
+			<%= f.hidden_field :user_id, :value => current_user.id %>
+			<%= f.hidden_field :praise_report_id, :value => praise.praise_report_id %>
+			<%= f.hidden_field :praise_report_type, :value => praise.praise_report_type %>
+			<%= f.text_field :name%>
+			<%= f.text_area :text%>
+			<%= f.file_field :image%>
+			<%= f.text_field :video_url%>
+			<%= f.submit "Post"%>
+		<%end%>
+	</div>
+</div>	

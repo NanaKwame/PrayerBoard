@@ -1,10 +1,30 @@
 PrayerBoard::Application.routes.draw do
+  resources :likes
+
+  resources :comments
+
+  resources :friendships
+
+  resources :prayer_requests
+
+  resources :events
+
+  resources :praises
+
+  resources :verses
+
+  resources :groups
+
+  resources :memberships
+
+  resources :friendships
+
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'home#home'
+  root 'home#newsfeed'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -18,7 +38,9 @@ PrayerBoard::Application.routes.draw do
   # Example resource route with options:
     resources :home do
       collection do
-        get 'home'
+        get 'newsfeed'
+        get 'personal'
+        get 'groups'
       end
     end
 

@@ -1,0 +1,24 @@
+<div class="home-left-filter">
+	Filter by:
+	<div class="inlineb">
+		<input id="feed-filter-ver" class="left-filter" type="checkbox"> </input> <label>Verses</label>
+	</div>
+	<div class="inlineb">
+		<input id="feed-filter-preq" class="left-filter" type="checkbox"> </input><label>Prayer Requests</label>
+	</div>
+	<div class="inlineb">
+		<input id="feed-filter-prep" class="left-filter" type="checkbox"> </input><label>Praise Reports</label>
+	</div>
+</div>
+<div class= "home-left-content">
+	<% posts.each do |post|%>
+		<%if post.class.name == "Verse"%>
+			<%= render partial: "partials/versediv", locals: {verseEle: post}%>
+		<%elsif post.class.name == "PrayerRequest"%>
+			<%= render partial: "partials/prayerdiv", locals: {prayerEle: post}%>
+		<%else%>
+			<%= render partial: "partials/praisediv", locals: {praiseEle: post}%>
+		<%end%>
+	<%end%>
+	
+</div>
