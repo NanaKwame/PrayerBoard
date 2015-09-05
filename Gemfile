@@ -46,7 +46,6 @@ end
 # gem 'debugger', group: [:development, :test]
 
 
-gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'devise'
 gem 'select2-rails'
@@ -54,3 +53,5 @@ gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 gem "aws-sdk"
 gem "rmagick", :require => 'RMagick'
 gem 'asana'
+
+gem 'rails_12factor', group: :production
