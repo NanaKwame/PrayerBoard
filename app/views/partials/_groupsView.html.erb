@@ -1,0 +1,20 @@
+<div class="group-section">
+	<h2>Your Groups</h2>
+	<button onclick="location.href='/groups/new';" class="btn">Create Group</button>
+	<% groups.each do |group| %>
+	<div class="group-ele">
+		<div class="group-details inlineb">
+			<div class="group-name">
+				<h4><%=group.name%></h4>
+			</div>
+			<div class="group-owner">
+				By <%= group.user.firstName%> <%= group.user.lastName%>
+			</div>
+			<div class="group-members">
+				Members: EJ, Lina, Cha, Christina, ...
+			</div>	
+		</div>
+		<button class="view-group-but inlineb" data-id="<%=group.id%>">View</button>
+	</div>
+	<%end %>
+</div>	

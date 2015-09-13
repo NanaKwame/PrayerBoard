@@ -1,0 +1,88 @@
+<div class="home-left-ele praiseEle <%= praiseEle.praise_report_type%>Ele">
+  <img alt="Praise" src="">
+  <div class="inlineb" style="width: 540px; margin: 0px 2px 0px 10px;">
+    <div class="ele-content inlineb">
+      <%= praiseEle.name%> <br/>
+      <%= praiseEle.text%>
+    </div>
+    <div class="ele-author inlineb">
+      
+      <%if praiseEle.praise_report_type == "Group"%>
+        by <%= praiseEle.group_poster.firstName%>
+        <br/>from <%= praiseEle.praise_report.name%>
+      <%else%>
+        by <%= praiseEle.praise_report.firstName%>
+      <%end%>
+    </div>
+    <div class="ele-actions inlineb">
+      <% mineC =praiseEle.userHasComment(current_user.id).length %>
+      <div class="ele-action modal-comment inlineb <%= 'mine' if mineC > 0 %>" title= "<%= 'You commented on this'  if mineC> 0%>" data-id="<%=praiseEle.id%>" data-type="praise">
+        Comments
+        (<div class="ele-action-number inlineb">
+          <%= praiseEle.comments.count%>
+        </div>)
+        
+      </div>
+      <div class="modal fade" id="praise-comments-modal-<%= praiseEle.id %>" tabindex="-1" role="dialog" >
+        <div class="modal-dialog" style="width: inherit;">
+          <div class="modal-content" style="width: inherit;">
+            <% praiseEle.comments.each do |comment|%>
+            <div>
+              <%=comment.text%>
+              <br/>
+              by <%=comment.user.firstName%>
+            </div>
+            <%end%>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+
+
+      <% mineL =praiseEle.userHasLike(current_user.id).length %>
+      <div class="ele-action modal-like inlineb <%= 'mine' if mineL > 0 %>" title= "<%= 'You liked this'  if mineL> 0%>" data-id="<%=praiseEle.id%>" data-type="praise">
+        Likes
+        (<div class="ele-action-number inlineb">
+          <%= praiseEle.likes.count%>
+        </div>)
+      </div>
+      <div class="modal fade" id="praise-likes-modal-<%= praiseEle.id %>" tabindex="-1" role="dialog" >
+        <div class="modal-dialog" style="width: inherit;">
+          <div class="modal-content" style="width: inherit;">
+          <% praiseEle.likes.each do |like|%>
+            <div>
+              by <%=like.user.firstName%>
+            </div>
+            <%end%>
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+        </div>
+      </div>
+
+
+
+      <div>
+        <% newComment = praiseEle.comments.new%>
+        <%= form_for(newComment) do |f|%>
+          <%= f.hidden_field :owner_id, :value => current_user.id %>
+          <%= f.hidden_field :post_id, :value => newComment.post_id %>
+          <%= f.hidden_field :post_type, :value => newComment.post_type %>
+          <%= f.text_area :text%>
+          <%= f.submit "Comment"%>
+        <%end%>
+        <% newlike = praiseEle.likes.new%>
+        <%= form_for(newlike) do |f|%>
+          <%= f.hidden_field :owner_id, :value => current_user.id %>
+          <%= f.hidden_field :post_id, :value => newlike.post_id %>
+          <%= f.hidden_field :post_type, :value => newlike.post_type %>
+          <%= f.submit "Like"%>
+        <%end%>
+      </div>
+    </div>
+    
+  </div>          
+</div>

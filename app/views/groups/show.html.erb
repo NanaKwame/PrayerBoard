@@ -1,0 +1,80 @@
+<p id="notice"><%= notice %></p>
+
+<div class="group-main">
+  <div class="group-main-top">
+    <div class="group-main-details inlineb">
+      <h2> <img src="<%= @group.image.url%>"><%= @group.name%></h2>
+      <div>by <%= @group.user.firstName%></div>
+    </div>
+    <div class="group-main-tools inlineb">
+      <div class="edit-group"><img src="" alt="icon">  Edit Group</div>
+      <div class="add-member"><img src="" alt="icon">  Add Member</div>
+    </div>
+  </div>
+  <div class="group-main-bottom">
+    <div class="home-main">
+      <div class="home-main-wrapper">
+        <div class="group-main-members inlineb">
+          <h2>Members</h2>
+          <ul>
+            <%@group.membership.each do |membership|%>
+            <li><%= membership.user.firstName%> <%= membership.user.lastName%></li>
+            <%end%>
+          </ul>
+        </div>
+        <div class="home-left inlineb">
+          <%= render partial: "partials/postsAndFilter", locals: {posts: @groupposts}%>
+        </div>
+        <div class="home-right inlineb">
+          <%= render partial: "partials/posting", locals: {owner: @group}%>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="group-edit-modal" tabindex="-1" role="dialog" >
+  <div class="modal-dialog" style="width: inherit;">
+    <div class="modal-content" style="width: inherit;">
+    <%= form_for(@group) do |f| %>
+    <div><%= f.label :description %><br />
+    <%= f.text_field :description %></div>
+
+    <div><%= f.label :name %><br />
+    <%= f.text_field :name %></div>
+
+    <div><%= f.label :image %><br />
+    <%= f.file_field :image %></div>
+
+    <div class="actions">
+      <%= f.submit %>
+    </div>
+  <% end %>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="group-add-member-modal" tabindex="-1" role="dialog" >
+  <div class="modal-dialog" style="width: inherit;">
+    <div class="modal-content" style="width: inherit;">
+    <%= form_for(@membership) do |f| %>
+    <%= f.hidden_field :group_id, :value => @group.id %>
+    <%= f.select :member_id, 
+      options_for_select(User.all.map {|u| 
+        [u.firstName, u.id]}), 
+      {:include_blank => false, :class => "membership-select", :multiple => true } %>
+    <div class="actions">
+      <%= f.submit "Add"%>
+    </div>
+  <% end %>
+    </div>
+    <div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  </div>
+  </div>
+</div>
+
